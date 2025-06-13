@@ -1,8 +1,8 @@
-# 🎄 Christmas Scene Renderer
+# Christmas Scene Renderer
 
 This C++ project renders a festive winter scene featuring a Christmas tree, moon, snow, stars, and ornaments using a custom shape and matrix drawing framework.
 
-## 🌟 Features
+## Features
 
 - RGB and black-and-white matrix classes with OpenCV integration
 - Shape hierarchy with `Rectangle`, `Circle`, and `Triangle`
@@ -12,7 +12,7 @@ This C++ project renders a festive winter scene featuring a Christmas tree, moon
 - Optional performance measurement
 - Scene displayed with `cv::imshow`
 
-## 📸 Sample Output
+## Sample Output
 
 The rendered scene includes:
 - A starry sky with a crescent moon
@@ -24,7 +24,7 @@ The rendered scene includes:
 
 > ⚠️ OpenCV must be installed for the display functionality to work.
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -46,7 +46,7 @@ The rendered scene includes:
 └── CMakeLists.txt
 ```
 
-## 🧱 Build Instructions
+## Build Instructions
 
 Make sure [OpenCV](https://opencv.org/) is installed on your system.
 
@@ -68,22 +68,18 @@ make
 
 You will be prompted to choose whether to display the image or measure performance.
 
-## 🛠️ Dependencies
+## Dependencies
 
 - **C++17**
 - [OpenCV](https://opencv.org/) (core, imgcodecs, highgui)
 
-## ✨ Example Usage
+## Example Usage
 
 ```bash
 Do you want to display the image? If you choose Y the execution time won't be calculated (y/n): y
 ```
 
-## 📌 Notes
+## Notes
 
 - If display is disabled (`n`), the execution time is printed in milliseconds.
 - This project is a fun example of basic computer graphics without relying on advanced rendering libraries.
-
----
-
-Made with ❤️ for visual joy.
